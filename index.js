@@ -1,5 +1,4 @@
 import CHINA_AREA_DATA from './data'
-import _ from 'lodash';
 
 // 先取外层省级数据
 const provinceList = CHINA_AREA_DATA['86'] // 省份对象
@@ -14,7 +13,7 @@ const regionData = []
 
 CodeToText[''] = '全部'
 
-for (const prop in province) {
+for (const prop in provinceList) {
   regionData.push({
     value: prop, 
     label: provinceList[prop]
