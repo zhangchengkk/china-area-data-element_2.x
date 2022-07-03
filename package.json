@@ -1,6 +1,6 @@
 {
   "name": "china-area-data-element_2.x",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Element UI 中国省市区数据(2021年度全国统计用区划代码和城乡划分代码)",
   "main": "index.js",
   "scripts": {
