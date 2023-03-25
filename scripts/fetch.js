@@ -5,9 +5,9 @@ const cheerio = require('cheerio')
 const axios = require('axios').default;
 
 // 统计数据数据年份
-const OBJ_YEAR = 2021
+const OBJ_YEAR = 2022
 // 国际统计局网址前缀
-const NATINAL_STATISTICS_URL = `http://www.stats.gov.cn/tjsj/tjbz/tjyqhdmhcxhfdm`
+const NATINAL_STATISTICS_URL = `http://www.stats.gov.cn/sj/tjbz/tjyqhdmhcxhfdm`
 
 /**
  * 获取非港澳台的三级区域
